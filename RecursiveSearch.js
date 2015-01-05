@@ -1,16 +1,5 @@
-'use strict';
-
-/**
- * Binary search.
- *
- * @param {array} array Array to find the index of the element
- * @param {number} key Key of element which index should be found
- * @param {number} left Left index
- * @param {number} right Right index
- * @returns {number} index The index of the element or -1 if not found
- *
- */
-function recursiveBinarySearch(array, key, left, right) {
+var RecursiveSearch = function(array, key, left, right) {
+  'use strict';
   if (left > right) {
     return -1;
   }
@@ -22,8 +11,7 @@ function recursiveBinarySearch(array, key, left, right) {
   } else {
     return recursiveBinarySearch(array, key, middle + 1, right);
   }
-}
-
+};
 module.exports = function (array, key) {
   return recursiveBinarySearch(array, key, 0, array.length);
 };
