@@ -1,4 +1,4 @@
-var binarysearch = require('RecursiveSearchJS');
+var binarySearch = require('RecursiveSearchJS');
 
 binarySearch([1, 2, 3, 4, 6, 8], 1);
 // => 0
