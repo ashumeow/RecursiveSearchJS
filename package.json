@@ -2,11 +2,11 @@
   "name": "RecursiveSearchJS",
   "version": "v1.0.0",
   "description": "RecursiveSearchJS with O(log N) complexity",
-  "homepage": "http://addyosmani.com",
+  "homepage": "http://windowsgeekpro.in",
   "author": {
     "name": "Aswini S",
     "email": "geekymeow@gmail.com",
-    "url": "http://windowsgeekpro.in"
+    "url": "http://github.com/ashumeow"
   },
   "repository": "ashumeow/RecursiveSearchJS",
   "license": "MIT",
@@ -23,12 +23,6 @@
   "devDependencies": {
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-nodeunit": "^0.4.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^1.0.0",
-    "time-grunt": "^1.0.0",
-    "grunt-mocha-cli": "^1.11.0",
-    "jshint-stylish": "^1.0.0"
   },
   "scripts": {
     "test": "grunt"
