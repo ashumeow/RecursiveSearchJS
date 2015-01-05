@@ -1,20 +1,20 @@
 {
-  "name": "recursive-binarysearch",
-  "version": "1.0.0",
-  "description": "Recursive Binary Search",
+  "name": "RecursiveSearchJS",
+  "version": "v1.0.0",
+  "description": "RecursiveSearchJS with O(log N) complexity",
   "homepage": "http://addyosmani.com",
   "author": {
-    "name": "Addy Osmani",
-    "email": "addyosmani@gmail.com",
-    "url": "http://addyosmani.com"
+    "name": "Aswini S",
+    "email": "geekymeow@gmail.com",
+    "url": "http://windowsgeekpro.in"
   },
-  "repository": "addyosmani/recursive-binarysearch",
+  "repository": "ashumeow/RecursiveSearchJS",
   "license": "MIT",
   "files": [
-    "index.js"
+    "RecursiveSearchJS.js"
   ],
   "keywords": [
-    "recursive-binarysearch",
+    "RecursiveSearchJS",
     "binary",
     "search",
     "recursive"
