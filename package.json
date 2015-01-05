@@ -11,7 +11,7 @@
   "repository": "ashumeow/RecursiveSearchJS",
   "license": "MIT",
   "files": [
-    "RecursiveSearchJS.js"
+    "RecursiveSearch.js"
   ],
   "keywords": [
     "RecursiveSearchJS",
