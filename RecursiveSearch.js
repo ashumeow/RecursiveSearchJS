@@ -7,11 +7,11 @@ var RecursiveSearch = function(array, key, left, right) {
   if (array[middle] === key) {
     return middle;
   } else if (array[middle] > key) {
-    return RecursiveSearch(array, key, left, middle - 1);
+    return new RecursiveSearch(array, key, left, middle - 1);
   } else {
-    return RecursiveSearch(array, key, middle + 1, right);
+    return new RecursiveSearch(array, key, middle + 1, right);
   }
 };
 module.exports = function (array, key) {
-  return RecursiveSearch(array, key, 0, array.length);
+  return new RecursiveSearch(array, key, 0, array.length);
 };
